@@ -38,16 +38,7 @@ function afficher(){
     
     
 })
-const btnModif = document.querySelectorAll(".editButton")
-btnModif.forEach(button=>{
-button.addEventListener('click',e=>{
-    // console.log(e.target)
-    editingId= e.target.dataset.id
-    // console.log(editingId)
-    personnes.find(personne=>)
 
-})
-})
 }
 
 afficher();
