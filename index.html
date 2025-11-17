@@ -1,0 +1,73 @@
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Formulaire simple</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4 flex flex-col">
+
+
+<form id="form" class="bg-white w-full max-w-md p-6 rounded-xl shadow-md space-y-4 h-[110vh] ">
+
+
+<h1 class="text-xl font-semibold text-center">Formulaire</h1>
+
+
+<div class="flex flex-col">
+<label for="nom" class="text-sm mb-1">Nom</label>
+<input type="text" id="nom" name="nom" class="border rounded-md px-3 py-2"  />
+</div>
+
+
+<div class="flex flex-col">
+<label for="prenom" class="text-sm mb-1">Prénom</label>
+<input type="text" id="prenom" name="prenom" class="border rounded-md px-3 py-2" />
+</div>
+
+
+<div class="flex flex-col">
+<label for="dob" class="text-sm mb-1">Date de naissance</label>
+<input type="date" id="DNaiss" name="DN" class="border rounded-md px-3 py-2" />
+</div>
+
+
+<div class="flex flex-col">
+<label for="adresse" class="text-sm mb-1">Adresse</label>
+<input type="text" id="adresse" name="adresse" class="border rounded-md px-3 py-2" />
+</div>
+
+
+<div class="flex flex-col">
+<label for="ville" class="text-sm mb-1">Ville</label>
+<input type="text" id="ville" name="ville" class="border rounded-md px-3 py-2" />
+</div>
+
+
+<div class="flex flex-col">
+<label for="photo" class="text-sm mb-1">Photo URL</label>
+<input type="url" id="photo" class="border rounded-md px-3 py-2" />
+</div>
+
+
+<button id="btn" type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-500">Enregistrer</button>
+
+
+
+
+
+</form>
+
+<div id="containerCard" class="flex flex-wrap gap-6">
+
+
+    
+
+</div>
+
+
+
+
+<script src="/assets/JS/script.js"></script>
+</body>
+</html>
